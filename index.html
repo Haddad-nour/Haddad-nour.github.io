@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Nour Elislem Haddad — Software Engineering graduate specialising in full-stack development, AI integration and DevOps.">
+    <title>Nour Elislem Haddad | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-panel"
+                data-i18n-attr="aria-label:nav.menuOpen">
+                <span class="nav-toggle__bar" aria-hidden="true"></span>
+                <span class="nav-toggle__bar" aria-hidden="true"></span>
+                <span class="nav-toggle__bar" aria-hidden="true"></span>
+            </button>
+
+            <nav id="nav-panel" class="site-nav" aria-label="Primary">
+                <ul class="nav-links">
+                    <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                    <li><a href="#about" data-i18n="nav.about">About</a></li>
+                    <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+                    <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+                    <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+                    <li><a href="#education" data-i18n="nav.education">Education</a></li>
+                    <li><a href="#awards" data-i18n="nav.awards">Awards</a></li>
+                    <li><a href="#certifications" data-i18n="nav.certifications">Certifications</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+                <div class="lang-switch" role="group" aria-label="Language">
+                    <button type="button" class="lang-btn" data-lang="fr" aria-pressed="false">FR</button>
+                    <span class="lang-divider" aria-hidden="true">|</span>
+                    <button type="button" class="lang-btn is-active" data-lang="en" aria-pressed="true">EN</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section id="home" class="section section--hero">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <p class="greeting" data-i18n="hero.greeting">Hello, I'm</p>
+                    <h1 data-i18n="hero.name">Nour Elislem Haddad</h1>
+                    <p class="hero-title" data-i18n="hero.title">Software Engineer | Full-Stack Developer</p>
+                    <p class="description" data-i18n="hero.intro">
+                        Software Engineering graduate passionate about building modern, secure and intelligent web applications.
+                    </p>
+
+                    <div class="hero-award-badge" aria-label="Award">
+                        <span class="hero-award-badge__icon" aria-hidden="true">🏆</span>
+                        <span class="hero-award-badge__text" data-i18n="hero.awardBadge">1st Prize of Distinction — PFE Book 2026</span>
+                    </div>
+
+                    <div class="hero-stats" aria-label="Academic results">
+                        <div class="hero-stat">
+                            <span class="hero-stat__value">17.70<span class="hero-stat__unit">/20</span></span>
+                            <span class="hero-stat__label" data-i18n="hero.statAverage">Overall average</span>
+                        </div>
+                        <div class="hero-stat__divider" aria-hidden="true"></div>
+                        <div class="hero-stat">
+                            <span class="hero-stat__value">19<span class="hero-stat__unit">/20</span></span>
+                            <span class="hero-stat__label" data-i18n="hero.statPfe">PFE grade</span>
+                        </div>
+                        <div class="hero-stat__divider" aria-hidden="true"></div>
+                        <div class="hero-stat">
+                            <span class="hero-stat__value" data-i18n="hero.statHonors">Excellent</span>
+                            <span class="hero-stat__label" data-i18n="hero.statHonorsLabel">Honors</span>
+                        </div>
+                    </div>
+
+                    <div class="expertise">
+                        <p class="expertise-label" data-i18n="hero.expertiseLabel">Areas of focus</p>
+                        <ul id="expertise-list" class="expertise-list"></ul>
+                    </div>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn--primary" data-i18n="hero.ctaProjects">View Projects</a>
+                        <div id="hero-cv-dropdown" class="cv-group hero-cv">
+                            <a id="cv-download-en" class="btn btn--outline" href="assets/cv/CV_Nour_Elislem_Haddad_EN.pdf" target="_blank" rel="noopener noreferrer" download="CV_Nour_Elislem_Haddad_EN.pdf">English CV</a>
+                            <a id="cv-download-fr" class="btn btn--outline" href="assets/cv/CV_Nour_Elislem_Haddad_FR.pdf" target="_blank" rel="noopener noreferrer" download="CV_Nour_Elislem_Haddad_FR.pdf">French CV</a>
+                        </div>
+                    </div>
+
+                    <div class="hero-social">
+                        <a data-social="github" class="social-link" href="#" target="_blank" rel="noopener noreferrer">
+                            <span class="social-icon" aria-hidden="true">GH</span>
+                            <span class="sr-only">GitHub</span>
+                        </a>
+                        <a data-social="linkedin" class="social-link" href="#" target="_blank" rel="noopener noreferrer">
+                            <span class="social-icon" aria-hidden="true">in</span>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="about" class="section section--alt">
+            <div class="container">
+                <header class="section-header reveal">
+                    <h2 data-i18n="about.title">About Me</h2>
+                </header>
+                <div class="about-grid reveal">
+                    <div class="about-prose">
+                        <p data-i18n="about.p1"></p>
+                        <p data-i18n="about.p2"></p>
+                        <p data-i18n="about.p3"></p>
+                    </div>
+                    <aside class="highlights-card">
+                        <h3 data-i18n="about.highlightsTitle">Academic highlights</h3>
+                        <ul class="highlights-list">
+                            <li data-i18n="about.highlightDegree"></li>
+                            <li data-i18n="about.highlightHonors"></li>
+                            <li data-i18n="about.highlightAverage"></li>
+                            <li data-i18n="about.highlightPfe"></li>
+                            <li class="highlights-list__award" data-i18n="about.highlightAward"></li>
+                        </ul>
+                        <h3 class="highlights-sub" data-i18n="about.languagesTitle">Languages</h3>
+                        <ul class="highlights-list highlights-list--compact">
+                            <li data-i18n="about.langAr"></li>
+                            <li data-i18n="about.langFr"></li>
+                            <li data-i18n="about.langEn"></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <header class="section-header reveal">
+                    <h2 data-i18n="skills.title">Technical Skills</h2>
+                    <p class="section-lead" data-i18n="skills.subtitle"></p>
+                </header>
+                <div id="skills-grid" class="skills-grid reveal-group"></div>
+            </div>
+        </section>
+
+        <section id="experience" class="section section--alt">
+            <div class="container">
+                <header class="section-header reveal">
+                    <h2 data-i18n="experience.title">Professional Experience</h2>
+                </header>
+                <div id="experience-list" class="timeline reveal-group"></div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <header class="section-header reveal">
+                    <h2 data-i18n="projects.title">Featured Projects</h2>
+                    <p class="section-lead" data-i18n="projects.subtitle"></p>
+                </header>
+                <div id="projects-grid" class="projects-grid reveal-group"></div>
+            </div>
+        </section>
+
+        <section id="education" class="section section--alt">
+            <div class="container">
+                <header class="section-header reveal">
+                    <h2 data-i18n="education.title">Education</h2>
+                </header>
+                <div id="education-list" class="education-grid reveal-group"></div>
+            </div>
+        </section>
+
+        <section id="awards" class="section">
+            <div class="container">
+                <header class="section-header reveal">
+                    <h2 id="awards-title" data-i18n="awards.title">Awards &amp; Achievements</h2>
+                    <p class="section-lead" id="awards-subtitle" data-i18n="awards.subtitle"></p>
+                </header>
+                <div class="awards-grid reveal-group">
+                    <article class="award-card">
+                        <div class="award-card__icon" aria-hidden="true">🏆</div>
+                        <div class="award-card__body">
+                            <h3 id="awards-item1-title" class="award-card__title" data-i18n="awards.item1Title">1st Prize of Distinction — PFE Book 2026</h3>
+                            <p class="award-card__org" id="awards-item1-org" data-i18n="awards.item1Org">Assurance Zitouna Takaful</p>
+                            <p class="award-card__date" id="awards-item1-date" data-i18n="awards.item1Date">19 October 2026</p>
+                            <p class="award-card__project" id="awards-item1-project" data-i18n="awards.item1Project">Project: NovLexPortal</p>
+                            <p class="award-card__desc" id="awards-item1-desc" data-i18n="awards.item1Desc"></p>
+                            <div class="report-link-wrap" style="margin-top:0.85rem;">
+                                <a href="assets/images/Certificat_Prix_Distinction_PFE_Book_2026_Nour_Elislem_Haddad.pdf"
+                                   target="_blank" rel="noopener noreferrer"
+                                   class="report-link award-cert-link"
+                                   data-i18n-attr="aria-label:awards.certAlt">
+                                    <span aria-hidden="true">📄</span>
+                                    <span class="award-cert-label" data-i18n="awards.certLabel">View Certificate</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section section--alt">
+            <div class="container">
+                <header class="section-header reveal">
+                    <h2 data-i18n="certifications.title">Certifications</h2>
+                    <p class="section-lead" data-i18n="certifications.subtitle"></p>
+                </header>
+                <div id="certifications-list" class="cert-grid reveal-group"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section--alt">
+            <div class="container">
+                <header class="section-header reveal">
+                    <h2 data-i18n="contact.title">Contact</h2>
+                    <p class="section-lead" data-i18n="contact.subtitle"></p>
+                </header>
+                <div class="contact-grid reveal-group">
+                    <div class="contact-card">
+                        <h3 data-i18n="contact.email">Email</h3>
+                        <p>noor.haddad810@gmail.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <h3 data-i18n="contact.location">Location</h3>
+                        <p id="contact-location">Tunisia</p>
+                    </div>
+                    <div class="contact-card">
+                        <h3 data-i18n="contact.linkedin">LinkedIn</h3>
+                        <p><a data-social="linkedin" href="#" target="_blank" rel="noopener noreferrer" class="text-link">LinkedIn</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <h3 data-i18n="contact.phone">Phone</h3>
+                        <p>+216 26 459 928</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="year"></span> Nour Elislem Haddad. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <div id="project-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+        <div class="modal-backdrop" tabindex="-1"></div>
+        <div class="modal-dialog">
+            <button type="button" class="modal-close" data-i18n-attr="aria-label:projects.close">&times;</button>
+            <div id="project-modal-body" class="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

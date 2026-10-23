@@ -1,0 +1,22 @@
+# VS Code
+.vscode/
+
+# Cursor
+.cursor/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+# Videos - upload separately later
+assets/videos/*.mp4

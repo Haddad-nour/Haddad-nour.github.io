@@ -18,9 +18,9 @@ const DEFAULT_LANG = "en";
 const translations = {
   en: {
     meta: {
-      title: "Nour Elislem Haddad | Software Engineer",
+      title: "Nour Elislem Haddad | Software Engineering Graduate — AI & Software Development",
       description:
-        "Portfolio of Nour Elislem Haddad — Software Engineering graduate specialising in full-stack development, AI integration and DevOps.",
+        "Portfolio of Nour Elislem Haddad — Software Engineering graduate from ESPRIT (Excellent Honours, 17.70/20). Master's in AI applicant. Projects in machine learning, NLP, intelligent systems and full-stack development.",
     },
     nav: {
       brand: "Nour Elislem Haddad",
@@ -30,8 +30,10 @@ const translations = {
       experience: "Experience",
       projects: "Projects",
       education: "Education",
-      certifications: "Certifications",
+      foundations: "Foundations",
       awards: "Awards",
+      certifications: "Certifications",
+      interests: "Academic Interests",
       contact: "Contact",
       menuOpen: "Open menu",
       menuClose: "Close menu",
@@ -40,16 +42,16 @@ const translations = {
     hero: {
       greeting: "Hello, I'm",
       name: "Nour Elislem Haddad",
-      title: "Software Engineer | Full-Stack Developer",
+      title: "Software Engineering Graduate | Artificial Intelligence & Software Development",
       intro:
-        "Software Engineering graduate from ESPRIT with Excellent Honors, specialising in Full-Stack Development, Artificial Intelligence and DevOps. Through my professional internships and academic projects, I have designed and developed web applications integrating modern software architectures, AI functionalities, application security and CI/CD pipelines.",
+        "Software Engineering graduate from ESPRIT, specialising in Software Engineering and Artificial Intelligence. My academic training, professional internships and project work have given me a solid foundation in machine learning, natural language processing, intelligent systems and full-stack software development. My final-year project NovLexPortal, awarded the 1st Prize of Distinction at PFE Book 2026, reflects my interest in designing and integrating intelligent software solutions. I am pursuing a Master's degree in Artificial Intelligence to deepen my scientific and technical knowledge in this field.",
       expertiseLabel: "Areas of focus",
       expertise: [
+        "Artificial Intelligence & ML",
+        "Natural Language Processing",
         "Full-Stack Development",
-        "Artificial Intelligence",
         "Software Engineering",
         "DevOps",
-        "Software Architecture",
       ],
       ctaProjects: "Explore My Projects",
       ctaCv: "Download CV",
@@ -63,15 +65,15 @@ const translations = {
     },
     about: {
       title: "About Me",
-      p1: "I graduated from ESPRIT with a National Engineering Degree in Computer Science, specialising in Software Engineering. My training covered frontend and backend development, software architecture, artificial intelligence, API integration, security, CI/CD pipelines, databases and software testing.",
-      p2: "My professional experience includes two internships at INSOMEA Computer Solutions and a final-year engineering internship at Assurance Zitouna Takaful, where I independently designed and developed NovLexPortal, an intelligent legal litigation management platform.",
-      p3: "NovLexPortal was recognised with the 1st Prize of Distinction at the PFE Book 2026 Awards Ceremony organised by Assurance Zitouna Takaful. I am particularly interested in reliable, maintainable and intelligent software systems.",
-      highlightsTitle: "Academic highlights",
-      highlightDegree: "National Engineering Degree — ESPRIT",
-      highlightHonors: "Excellent Honors",
-      highlightAverage: "Overall average — 17.70/20",
-      highlightPfe: "Final-year project (PFE) — 19/20, Excellent Honors",
-      highlightAward: "🏆 1st Prize of Distinction — PFE Book 2026, Zitouna Takaful",
+      p1: "I graduated from ESPRIT with a National Engineering Degree in Computer Science, specialising in Software Engineering. My three-year engineering curriculum covered software engineering fundamentals, software architecture, artificial intelligence, full-stack development, databases, security, DevOps and software testing.",
+      p2: "My professional experience includes two internships at INSOMEA Computer Solutions and a final-year engineering internship at Assurance Zitouna Takaful, where I independently designed and developed NovLexPortal — an intelligent legal litigation management platform integrating machine learning, NLP, OCR and semantic similarity.",
+      p3: "NovLexPortal was recognised with the 1st Prize of Distinction at the PFE Book 2026 Awards Ceremony. I am applying for a Master's degree in Artificial Intelligence to deepen my scientific foundations and develop advanced expertise in machine learning, deep learning and intelligent systems.",
+      highlightsTitle: "Academic Highlights",
+      highlightDegree: "National Engineering Degree in Computer Science — ESPRIT",
+      highlightSpec: "Specialization in Software Engineering",
+      highlightHonors: "Graduated with Excellent Honors",
+      highlightPrepa: "Scientific Preparatory Program — Physics and Chemistry (IPEIEM)",
+      highlightAward: "🏆 1st Distinction Prize — PFE Book 2026, Assurance Zitouna Takaful",
       languagesTitle: "Languages",
       langAr: "Arabic — Native",
       langFr: "French — Fluent",
@@ -138,6 +140,61 @@ const translations = {
       viewBadge: "View Badge",
       viewGrades: "View Grades",
     },
+    foundations: {
+      title: "Academic & Scientific Foundations",
+      subtitle: "Knowledge areas developed through my engineering curriculum, projects and certifications.",
+      mathTitle: "Mathematics & Sciences",
+      mathItems: [
+        "Mathematical analysis",
+        "Linear algebra",
+        "Probability & statistics",
+        "Scientific reasoning & problem solving",
+        "Physics",
+      ],
+      csTitle: "Computer Science & Software Engineering",
+      csItems: [
+        "Algorithms & data structures",
+        "Object-oriented programming",
+        "Software architecture & design patterns",
+        "Databases & information systems",
+        "Operating systems & networks",
+        "UML modelling & software engineering methods",
+        "Application security",
+      ],
+      aiTitle: "Applied Artificial Intelligence",
+      aiItems: [
+        "Machine learning (supervised & unsupervised)",
+        "Deep learning & neural networks",
+        "Natural language processing",
+        "Semantic similarity & Transformer models",
+        "Intelligent recommendation systems",
+        "Document processing & OCR",
+        "AI service integration in software architectures",
+      ],
+      note: "These knowledge areas reflect competencies developed throughout my engineering degree, internships and certifications.",
+    },
+    academicInterests: {
+      title: "Academic Interests",
+      subtitle: "Research directions I aim to pursue in a Master's programme in Artificial Intelligence.",
+      items: [
+        {
+          title: "Machine Learning & Deep Learning",
+          desc: "Advanced study of learning algorithms, neural network architectures and model evaluation methods.",
+        },
+        {
+          title: "Natural Language Processing",
+          desc: "Exploration of Transformer architectures, semantic representations and multilingual NLP applications.",
+        },
+        {
+          title: "Intelligent Recommendation Systems",
+          desc: "Combining machine learning, rule-based approaches and semantic similarity for hybrid recommender systems.",
+        },
+        {
+          title: "Applied Artificial Intelligence",
+          desc: "Designing and evaluating AI solutions integrated into real-world software systems.",
+        },
+      ],
+    },
     awards: {
       title: "Awards & Achievements",
       subtitle: "Academic and professional recognition.",
@@ -154,7 +211,7 @@ const translations = {
     contact: {
       title: "Contact",
       subtitle:
-        "Open to software engineering roles, internships and Master's programmes. Feel free to reach out.",
+        "Open to Master's programmes in Artificial Intelligence, software engineering roles and internships. Feel free to reach out.",
       email: "Email",
       location: "Location",
       linkedin: "LinkedIn",
@@ -195,8 +252,15 @@ const translations = {
       videoCaption: "Project demonstration video",
       technicalReport: "Technical Report",
       pfeReportTitle: "PFE Report — NovLexPortal",
+      gymReportTitle: "Internship Report — Gym Management Application",
+      ecommerceReportTitle: "Internship Report — Intelligent E-Commerce Platform",
       viewReport: "Consult Report",
       downloadPdf: "Download PDF",
+      aiMethodology: "AI Methodology & Experiments",
+      aiProblem: "Problem",
+      aiApproaches: "Approaches & Models",
+      aiIntegration: "Architecture Integration",
+      aiValidation: "Validation & Data",
     },
     projectPages: {
       novlex: {
@@ -216,6 +280,16 @@ const translations = {
         architecture: ["Angular 20.3 frontend (Single Page Application)", "Quarkus backend (Java 17, REST APIs)", "FastAPI AI microservice (Python)", "PostgreSQL 16 database", "Keycloak for identity management", "OpenFGA for fine-grained authorisation", "Jenkins + Docker + SonarQube for CI/CD"],
         award: "1st Prize of Distinction — PFE Book 2026, Assurance Zitouna Takaful",
         iterations: { i1: "Iteration 1", i2: "Iteration 2", i3: "Iteration 3", i4: "Iteration 4", i5: "Iteration 5" },
+        aiMethodProblem: "Legal documents at Zitouna Takaful arrived in scanned and mixed-language formats (French and Arabic), with no automated processing. Case recommendations relied entirely on manual judgment with no data-driven support.",
+        aiMethodApproaches: [
+          "Hybrid recommendation engine: business rules (case attributes) + Gradient Boosting classifier + fine-tuned SentenceTransformer for semantic embeddings + FAISS vector index for similarity search",
+          "OCR pipeline using Tesseract for extracting text from scanned legal documents in French and Arabic",
+          "Automatic text summarisation using extractive and abstractive approaches",
+          "French/Arabic neural machine translation using MarianMT and NLLB models",
+          "Semantic similarity search across the case corpus using dense vector representations",
+        ],
+        aiMethodIntegration: "All AI capabilities are encapsulated in a dedicated FastAPI microservice written in Python, communicating with the Quarkus backend via internal HTTP calls. This separation ensures that AI model updates do not affect core application stability and allows independent scaling of the AI layer.",
+        aiMethodValidation: "The recommendation system was validated on a dataset of approximately 1,500 case records. Functional validation included 16 Java unit and integration tests on the backend, and 4 pytest tests covering the AI service endpoints. Results were evaluated qualitatively through iterative review with the legal team during each of the 5 development iterations.",
       },
       ecommerce: {
         title: "Intelligent E-Commerce Platform",
@@ -228,6 +302,7 @@ const translations = {
         methodologyDesc: "Project developed using the Agile Scrum methodology, supporting iterative development, feature planning, progress monitoring and continuous improvement.",
         contribution: "Individual project completed under professional supervision. I was responsible for frontend development, Spring Boot REST API implementation, Flask AI recommendation service and Spring Security integration.",
         features: ["Full e-commerce shopping workflows", "Product catalogue and management", "Intelligent chatbot for customer support", "AI-based product recommendation system", "Secure REST API integration", "Responsive frontend interfaces", "Authentication and authorisation with Spring Security"],
+        ai: ["Intelligent chatbot for customer support and product discovery", "AI-based product recommendation system integrated with the Spring Boot backend via Flask microservice", "Secure REST API layer enabling AI service communication with Spring Security"],
         architecture: ["Angular frontend (SPA, responsive)", "Spring Boot backend (Java, REST APIs)", "Flask AI microservice (Python)", "MySQL database", "Spring Security for authentication and authorisation"],
       },
       charity: {
@@ -242,6 +317,8 @@ const translations = {
         contribution: "Collaborative team project. My personal contributions include: PDF certificate generation, event calendar functionality, posts management module, crisis management module, and development of an AI recommendation system based on user preferences inferred from post interactions (likes and comments).",
         personalContributions: ["PDF certificate generation for training workflows", "Event calendar development", "Posts management functionality", "Crisis management module", "AI recommendation system based on user post interactions (likes and comments)"],
         features: ["Association and NGO management", "Donation management workflows", "Volunteer mission management", "AI-powered recommendation system", "Job matching and support services", "Crisis management and geolocated alerts", "Events, training and healthcare services", "Authentication and application security"],
+        aiNote: "Personal contribution — AI recommendation system: user interactions (likes and comments on posts) are used to infer preferences and generate relevant recommendations for causes, content and missions.",
+        aiItems: ["Content-based recommendation from post interactions (likes and comments)", "User preference inference from interaction history", "Matching donors to causes and volunteers to missions based on inferred profiles", "Python-based AI recommendation module integrated into the Spring Boot backend"],
         architecture: ["Angular frontend (SPA)", "Spring Boot backend (Java, REST APIs)", "Python AI recommendation module", "MySQL database", "Spring Security + JWT authentication"],
       },
       speedygo: {
@@ -253,10 +330,19 @@ const translations = {
         problem: "Students needed to design and implement a comprehensive multi-service logistics platform covering the full delivery lifecycle, including parcels, carpooling and driver management.",
         solution: "SpeedyGo unifies parcel delivery, carpooling and transportation management in one platform, with separate modules for each service communicating via REST APIs and integrated with Stripe for payments.",
         methodologyDesc: "Project developed using the Agile Scrum methodology, supporting iterative development, feature planning, progress monitoring and continuous improvement.",
-        contribution: "Collaborative team project. My personal contributions include: carpooling management module, parcel management functionality, and Stripe payment integration for parcel-related transactions.",
-        personalContributions: ["Carpooling management module", "Parcel management functionality", "Stripe payment integration for parcel transactions"],
+        contribution: "Collaborative team project. My personal contributions include: carpooling management module, parcel management functionality, Stripe payment integration, and contribution to migrating the application toward a microservices architecture (API Gateway, Netflix Eureka, RabbitMQ).",
+        personalContributions: [
+          "Carpooling management module",
+          "Parcel management functionality",
+          "Stripe payment integration for parcel transactions",
+          "Contributed to migrating the application to a microservices-based architecture",
+          "Integrated and configured an API Gateway for request routing across microservices",
+          "Used Netflix Eureka for service registration and dynamic service discovery",
+          "Used RabbitMQ for asynchronous messaging between microservices",
+          "Contributed to service organisation and separation of responsibilities",
+        ],
         features: ["Parcel management and tracking", "Trip and carpooling management", "Driver and vehicle management", "Route-related functionalities", "Payment and subscription management via Stripe", "Internal chat and communication", "Complaint management"],
-        architecture: ["Angular 19 frontend (SPA)", "Spring Boot backend (Java, REST APIs)", "Flask Python service", "MySQL database", "Spring Security + JWT", "Stripe API for payments"],
+        architecture: ["Angular 19 frontend (SPA)", "Spring Boot backend (Java, REST APIs)", "Flask Python service", "MySQL database", "Spring Security + JWT", "Stripe API for payments", "API Gateway", "Netflix Eureka (service discovery)", "RabbitMQ (asynchronous message broker)"],
       },
       elearning: {
         title: "E-Learning Platform",
@@ -290,9 +376,9 @@ const translations = {
   },
   fr: {
     meta: {
-      title: "Nour Elislem Haddad | Ingénieure en Génie Logiciel",
+      title: "Nour Elislem Haddad | Ingénieure en Informatique — IA & Génie Logiciel",
       description:
-        "Portfolio de Nour Elislem Haddad — Diplômée en Génie Logiciel, développement full-stack, intégration IA et DevOps.",
+        "Portfolio de Nour Elislem Haddad — Ingénieure en informatique diplômée d'ESPRIT, mention Excellente (17,70/20). Candidate en Master IA. Projets en machine learning, NLP, systèmes intelligents et développement full-stack.",
     },
     nav: {
       brand: "Nour Elislem Haddad",
@@ -302,8 +388,10 @@ const translations = {
       experience: "Expériences",
       projects: "Projets",
       education: "Formation",
-      certifications: "Certifications",
+      foundations: "Fondements",
       awards: "Distinctions",
+      certifications: "Certifications",
+      interests: "Intérêts académiques",
       contact: "Contact",
       menuOpen: "Ouvrir le menu",
       menuClose: "Fermer le menu",
@@ -312,16 +400,16 @@ const translations = {
     hero: {
       greeting: "Bonjour, je suis",
       name: "Nour Elislem Haddad",
-      title: "Ingénieure en Génie Logiciel | Développeuse Full-Stack",
+      title: "Ingénieure en informatique | Intelligence artificielle & Génie logiciel",
       intro:
-        "Ingénieure en Génie Logiciel diplômée d'ESPRIT avec la mention Excellente, spécialisée en développement Full-Stack, intelligence artificielle et DevOps. À travers mes stages professionnels et mes projets académiques, j'ai conçu et développé des applications web intégrant des architectures logicielles modernes, des fonctionnalités d'IA, des systèmes de sécurité et des pipelines CI/CD.",
+        "Ingénieure en informatique diplômée d'ESPRIT, spécialisée en génie logiciel et passionnée par l'intelligence artificielle. Mon parcours académique, mes stages professionnels et mes projets m'ont permis d'acquérir des compétences solides en machine learning, traitement automatique du langage naturel, systèmes intelligents et développement logiciel full-stack. Mon projet de fin d'études NovLexPortal, récompensé du 1er Prix de Distinction au PFE Book 2026, illustre mon intérêt pour la conception et l'intégration de solutions logicielles intelligentes. Je souhaite poursuivre mes études en Master en Intelligence Artificielle afin d'approfondir mes connaissances scientifiques et techniques dans ce domaine.",
       expertiseLabel: "Domaines d'expertise",
       expertise: [
+        "Intelligence artificielle & ML",
+        "Traitement du langage naturel",
         "Développement Full-Stack",
-        "Intelligence artificielle",
         "Génie logiciel",
         "DevOps",
-        "Architecture logicielle",
       ],
       ctaProjects: "Découvrir mes projets",
       ctaCv: "Télécharger mon CV",
@@ -335,15 +423,15 @@ const translations = {
     },
     about: {
       title: "À propos",
-      p1: "Je suis diplômée de l'ESPRIT, Diplôme National d'Ingénieur en Informatique, spécialité Génie Logiciel. Ma formation a couvert le développement frontend et backend, l'architecture logicielle, l'intelligence artificielle, l'intégration d'API, la sécurité, les pipelines CI/CD, les bases de données et les tests logiciels.",
-      p2: "Mon expérience professionnelle comprend deux stages chez INSOMEA Computer Solutions et un stage de fin d'études chez Assurance Zitouna Takaful, où j'ai conçu et développé de manière individuelle NovLexPortal, une plateforme intelligente de gestion des contentieux judiciaires.",
-      p3: "NovLexPortal a été récompensé du 1er Prix de Distinction lors de la cérémonie PFE Book 2026 organisée par Assurance Zitouna Takaful. Je m'intéresse particulièrement aux systèmes logiciels fiables, maintenables et intelligents.",
+      p1: "Je suis diplômée de l'ESPRIT avec un Diplôme National d'Ingénieur en Informatique, spécialité Génie Logiciel. Mon cursus d'ingénieur sur trois années a couvert les fondements de l'informatique et du génie logiciel, l'architecture logicielle, l'intelligence artificielle, le développement full-stack, les bases de données, la sécurité, DevOps et les tests logiciels.",
+      p2: "Mon expérience professionnelle comprend deux stages chez INSOMEA Computer Solutions et un stage de fin d'études chez Assurance Zitouna Takaful, où j'ai conçu et développé de manière individuelle NovLexPortal — une plateforme intelligente de gestion des contentieux judiciaires intégrant du machine learning, du NLP, de l'OCR et de la similarité sémantique.",
+      p3: "NovLexPortal a été récompensé du 1er Prix de Distinction lors de la cérémonie PFE Book 2026. Je candidate à un Master en Intelligence Artificielle pour approfondir mes fondements scientifiques et développer une expertise avancée en machine learning, deep learning et systèmes intelligents.",
       highlightsTitle: "Points académiques",
-      highlightDegree: "Diplôme National d'Ingénieur — ESPRIT",
-      highlightHonors: "Mention Excellente",
-      highlightAverage: "Moyenne générale — 17,70/20",
-      highlightPfe: "Projet de fin d'études — 19/20, Mention excellente",
-      highlightAward: "🏆 1er Prix de Distinction — PFE Book 2026, Zitouna Takaful",
+      highlightDegree: "Diplôme National d'Ingénieur en informatique — ESPRIT",
+      highlightSpec: "Spécialisation en Génie Logiciel",
+      highlightHonors: "Diplômée avec la Mention Excellente",
+      highlightPrepa: "Cycle préparatoire scientifique — Physique-Chimie (IPEIEM)",
+      highlightAward: "🏆 1er Prix de Distinction — PFE Book 2026, Assurance Zitouna Takaful",
       languagesTitle: "Langues",
       langAr: "Arabe — Langue maternelle",
       langFr: "Français — Courant",
@@ -411,6 +499,61 @@ const translations = {
       viewBadge: "Voir le badge",
       viewGrades: "Voir les notes",
     },
+    foundations: {
+      title: "Fondements académiques et scientifiques",
+      subtitle: "Domaines de connaissances développés au fil de mon cursus d'ingénieur, de mes projets et de mes certifications.",
+      mathTitle: "Mathématiques et sciences",
+      mathItems: [
+        "Analyse mathématique",
+        "Algèbre linéaire",
+        "Probabilités et statistiques",
+        "Raisonnement scientifique et résolution de problèmes",
+        "Physique",
+      ],
+      csTitle: "Informatique et génie logiciel",
+      csItems: [
+        "Algorithmique et structures de données",
+        "Programmation orientée objet",
+        "Architecture logicielle et patrons de conception",
+        "Bases de données et systèmes d'information",
+        "Systèmes d'exploitation et réseaux",
+        "Modélisation UML et méthodes de génie logiciel",
+        "Sécurité des applications",
+      ],
+      aiTitle: "Intelligence artificielle appliquée",
+      aiItems: [
+        "Machine learning (supervisé et non supervisé)",
+        "Deep learning et réseaux de neurones",
+        "Traitement automatique du langage naturel",
+        "Similarité sémantique et modèles Transformers",
+        "Systèmes de recommandation intelligents",
+        "Traitement documentaire et OCR",
+        "Intégration de services IA dans des architectures logicielles",
+      ],
+      note: "Ces domaines reflètent les connaissances développées tout au long de mon cursus d'ingénieur, de mes stages et de mes certifications.",
+    },
+    academicInterests: {
+      title: "Centres d'intérêt académiques",
+      subtitle: "Domaines que je souhaite approfondir dans le cadre d'un Master en Intelligence Artificielle.",
+      items: [
+        {
+          title: "Machine Learning & Deep Learning",
+          desc: "Approfondissement des algorithmes d'apprentissage, des architectures de réseaux de neurones et des méthodes d'évaluation.",
+        },
+        {
+          title: "Traitement automatique du langage naturel",
+          desc: "Exploration des architectures Transformer, des représentations sémantiques et des applications NLP multilingues.",
+        },
+        {
+          title: "Systèmes de recommandation intelligents",
+          desc: "Combinaison de méthodes d'apprentissage, de règles métier et de similarité sémantique pour des systèmes hybrides.",
+        },
+        {
+          title: "Intelligence artificielle appliquée",
+          desc: "Conception et évaluation de solutions d'IA intégrées dans des systèmes logiciels réels.",
+        },
+      ],
+    },
     awards: {
       title: "Distinctions et Réalisations",
       subtitle: "Reconnaissances académiques et professionnelles.",
@@ -427,7 +570,7 @@ const translations = {
     contact: {
       title: "Contact",
       subtitle:
-        "Disponible pour des postes en génie logiciel, des stages et des candidatures en Master. N'hésitez pas à me contacter.",
+        "Disponible pour des candidatures en Master en Intelligence Artificielle, des postes en génie logiciel et des stages. N'hésitez pas à me contacter.",
       email: "E-mail",
       location: "Localisation",
       linkedin: "LinkedIn",
@@ -469,8 +612,15 @@ const translations = {
       videoCaption: "Vidéo de démonstration du projet",
       technicalReport: "Rapport technique",
       pfeReportTitle: "Rapport PFE — NovLexPortal",
+      gymReportTitle: "Rapport de stage — Application de gestion de salle de sport",
+      ecommerceReportTitle: "Rapport de stage — Plateforme e-commerce intelligente",
       viewReport: "Consulter le rapport",
       downloadPdf: "Télécharger le PDF",
+      aiMethodology: "Démarche IA & Expérimentations",
+      aiProblem: "Problème traité",
+      aiApproaches: "Approches et modèles",
+      aiIntegration: "Intégration dans l'architecture",
+      aiValidation: "Validation et données",
     },
     projectPages: {
       novlex: {
@@ -490,6 +640,16 @@ const translations = {
         architecture: ["Frontend Angular 20.3 (Single Page Application)", "Backend Quarkus (Java 17, API REST)", "Microservice IA FastAPI (Python)", "Base de données PostgreSQL 16", "Keycloak pour la gestion des identités", "OpenFGA pour l'autorisation fine", "Jenkins + Docker + SonarQube pour CI/CD"],
         award: "1er Prix de Distinction — PFE Book 2026, Assurance Zitouna Takaful",
         iterations: { i1: "Itération 1", i2: "Itération 2", i3: "Itération 3", i4: "Itération 4", i5: "Itération 5" },
+        aiMethodProblem: "Les documents juridiques de Zitouna Takaful arrivaient sous forme numérisée dans des formats mixtes français/arabe, sans traitement automatisé. Les recommandations de dossiers reposaient entièrement sur le jugement manuel, sans aucun support basé sur les données.",
+        aiMethodApproaches: [
+          "Moteur de recommandation hybride : règles métier (attributs des dossiers) + classifieur Gradient Boosting + SentenceTransformer fine-tuné pour les représentations sémantiques + index vectoriel FAISS pour la recherche par similarité",
+          "Pipeline OCR avec Tesseract pour l'extraction de texte à partir de documents juridiques numérisés en français et en arabe",
+          "Résumé automatique de texte par approches extractives et abstraites",
+          "Traduction neuronale français/arabe avec les modèles MarianMT et NLLB",
+          "Recherche sémantique sur le corpus de dossiers via représentations vectorielles denses",
+        ],
+        aiMethodIntegration: "Toutes les fonctionnalités IA sont encapsulées dans un microservice FastAPI dédié en Python, qui communique avec le backend Quarkus via des appels HTTP internes. Cette séparation garantit que les mises à jour des modèles IA n'affectent pas la stabilité de l'application principale et permet une mise à l'échelle indépendante de la couche IA.",
+        aiMethodValidation: "Le système de recommandation a été validé sur un jeu de données d'environ 1 500 dossiers. La validation fonctionnelle comprend 16 tests unitaires et d'intégration Java côté backend, et 4 tests pytest couvrant les endpoints du microservice IA. Les résultats ont été évalués qualitativement lors de chacune des 5 itérations de développement, en collaboration avec l'équipe juridique.",
       },
       ecommerce: {
         title: "Plateforme e-commerce intelligente",
@@ -502,6 +662,7 @@ const translations = {
         methodologyDesc: "Projet développé selon la méthodologie Agile Scrum, favorisant une organisation itérative du travail, la planification des fonctionnalités, le suivi de l'avancement et l'amélioration continue.",
         contribution: "Projet individuel réalisé sous encadrement professionnel. J'ai développé le frontend, les API REST Spring Boot, le service de recommandation IA Flask et l'intégration Spring Security.",
         features: ["Parcours d'achat e-commerce complet", "Catalogue et gestion des produits", "Chatbot intelligent pour le support client", "Système de recommandation basé sur l'IA", "Intégration d'API REST sécurisées", "Interfaces frontend responsives", "Authentification et autorisation avec Spring Security"],
+        ai: ["Chatbot intelligent pour le support client et la découverte de produits", "Système de recommandation de produits basé sur l'IA, intégré au backend Spring Boot via un microservice Flask", "Couche API REST sécurisée permettant la communication avec le service IA via Spring Security"],
         architecture: ["Frontend Angular (SPA, responsive)", "Backend Spring Boot (Java, API REST)", "Microservice IA Flask (Python)", "Base de données MySQL", "Spring Security pour l'authentification et l'autorisation"],
       },
       charity: {
@@ -516,6 +677,8 @@ const translations = {
         contribution: "Projet réalisé en équipe. Mes contributions personnelles incluent : la génération de certificats PDF, le calendrier des événements, la gestion des publications, le module de gestion des crises, et le développement d'un système de recommandation basé sur les préférences des utilisateurs déduites de leurs interactions (mentions J'aime et commentaires).",
         personalContributions: ["Génération de certificats PDF pour la gestion des formations", "Développement du calendrier des événements", "Fonctionnalités de gestion des publications", "Module de gestion des crises", "Système de recommandation basé sur les interactions des utilisateurs avec les publications"],
         features: ["Gestion des associations et ONG", "Gestion des dons", "Gestion des missions bénévoles", "Système de recommandation basé sur l'IA", "Matching emploi et services de soutien", "Gestion des crises et alertes géolocalisées", "Événements, formations et services de santé", "Authentification et sécurité applicative"],
+        aiNote: "Contribution personnelle — Système de recommandation IA : les interactions des utilisateurs (mentions J'aime et commentaires sur les publications) sont utilisées pour inférer leurs préférences et générer des recommandations pertinentes de causes, contenus et missions.",
+        aiItems: ["Recommandation basée sur les interactions avec les publications (likes et commentaires)", "Inférence des préférences à partir de l'historique d'interactions", "Matching donateurs/causes et bénévoles/missions basé sur les profils déduits", "Module de recommandation IA en Python intégré au backend Spring Boot"],
         architecture: ["Frontend Angular (SPA)", "Backend Spring Boot (Java, API REST)", "Module IA Python pour les recommandations", "Base de données MySQL", "Authentification Spring Security + JWT"],
       },
       speedygo: {
@@ -527,10 +690,19 @@ const translations = {
         problem: "Les étudiants devaient concevoir une plateforme logistique multi-services complète couvrant l'ensemble du cycle de livraison, incluant colis, covoiturage et gestion des conducteurs.",
         solution: "SpeedyGo unifie la livraison de colis, le covoiturage et la gestion des transports dans une seule plateforme, avec des modules séparés communicant via des API REST et intégrés à Stripe pour les paiements.",
         methodologyDesc: "Projet développé selon la méthodologie Agile Scrum, favorisant une organisation itérative du travail, la planification des fonctionnalités, le suivi de l'avancement et l'amélioration continue.",
-        contribution: "Projet réalisé en équipe. Mes contributions personnelles incluent : le module de gestion du covoiturage, les fonctionnalités de gestion des colis, et l'intégration de Stripe pour les paiements liés aux colis.",
-        personalContributions: ["Module de gestion du covoiturage", "Fonctionnalités de gestion des colis", "Intégration de Stripe pour les paiements liés aux colis"],
+        contribution: "Projet réalisé en équipe. Mes contributions personnelles incluent : le module de gestion du covoiturage, les fonctionnalités de gestion des colis, l'intégration de Stripe, et une contribution à la migration vers une architecture microservices (API Gateway, Netflix Eureka, RabbitMQ).",
+        personalContributions: [
+          "Module de gestion du covoiturage",
+          "Fonctionnalités de gestion des colis",
+          "Intégration de Stripe pour les paiements liés aux colis",
+          "Participation à la migration de l'application vers une architecture microservices",
+          "Travail sur l'intégration et la configuration d'une API Gateway pour centraliser et router les requêtes",
+          "Utilisation de Netflix Eureka pour l'enregistrement et la découverte dynamique des services",
+          "Utilisation de RabbitMQ pour la communication asynchrone entre les microservices",
+          "Contribution à l'organisation et à la séparation des responsabilités des services",
+        ],
         features: ["Gestion et suivi des colis", "Gestion des trajets et du covoiturage", "Gestion des conducteurs et des véhicules", "Fonctionnalités d'itinéraire", "Gestion des paiements et abonnements via Stripe", "Chat et communication interne", "Gestion des réclamations"],
-        architecture: ["Frontend Angular 19 (SPA)", "Backend Spring Boot (Java, API REST)", "Service Flask Python", "Base de données MySQL", "Spring Security + JWT", "API Stripe pour les paiements"],
+        architecture: ["Frontend Angular 19 (SPA)", "Backend Spring Boot (Java, API REST)", "Service Flask Python", "Base de données MySQL", "Spring Security + JWT", "API Stripe pour les paiements", "API Gateway", "Netflix Eureka (découverte de services)", "RabbitMQ (courtier de messages asynchrone)"],
       },
       elearning: {
         title: "Plateforme e-learning",
@@ -650,6 +822,17 @@ const skillCategories = {
       ],
     },
     {
+      title: "Software Architecture & Distributed Systems",
+      items: [
+        "Microservices Architecture",
+        "API Gateway",
+        "Netflix Eureka",
+        "RabbitMQ",
+        "Asynchronous Inter-Service Communication",
+        "Distributed Service Design & Integration",
+      ],
+    },
+    {
       title: "Tools & Methodologies",
       items: [
         "Git",
@@ -752,6 +935,17 @@ const skillCategories = {
         "Spring Security",
         "Contrôle d'accès par rôles",
         "Sécurité applicative",
+      ],
+    },
+    {
+      title: "Architecture logicielle & Systèmes distribués",
+      items: [
+        "Architecture microservices",
+        "API Gateway",
+        "Netflix Eureka",
+        "RabbitMQ",
+        "Communication asynchrone entre services",
+        "Conception et intégration de services distribués",
       ],
     },
     {
@@ -888,12 +1082,10 @@ const educationItems = {
       school: "École Supérieure Privée d'Ingénierie et de Technologies (ESPRIT)",
       logo: "assets/images/Logo_ESPRIT_Ariana.jpg",
       graduation: "assets/images/graduation.jpeg",
-      report: { label: "PFE Report", file: "assets/images/Rapport_PFE_NovLexPortal_Nour_Elislem_Haddad.pdf" },
+      report: null,
       period: "2023 – 2026",
       degree: "National Engineering Degree in Computer Science",
       detail: "Specialisation: Software Engineering",
-      honors: "Excellent Honors — overall average 17.70/20",
-      note: "Final-year project (PFE): 19/20 — Excellent Honors.",
     },
     {
       school: "Institut Préparatoire aux Études d'Ingénieurs El Manar (IPEIEM)",
@@ -902,7 +1094,7 @@ const educationItems = {
       report: null,
       period: "2021 – 2023",
       degree: "Preparatory cycle — Physics and Chemistry",
-      detail: "Admitted through the Tunisian national competitive entrance examination for engineering schools.",
+      detail: "Intensive two-year scientific curriculum in mathematics, physics and analytical reasoning. Admitted through the Tunisian national competitive entrance examination for engineering schools.",
       honors: "",
       note: "",
     },
@@ -913,7 +1105,7 @@ const educationItems = {
       report: null,
       period: "2021",
       degree: "Baccalaureate — Experimental Sciences",
-      detail: "Honors: Bien — average 15.77/20",
+      detail: "Mention: Bien — average 15.77/20",
       honors: "",
       note: "",
     },
@@ -923,12 +1115,10 @@ const educationItems = {
       school: "École Supérieure Privée d'Ingénierie et de Technologies (ESPRIT)",
       logo: "assets/images/Logo_ESPRIT_Ariana.jpg",
       graduation: "assets/images/graduation.jpeg",
-      report: { label: "Rapport PFE", file: "assets/images/Rapport_PFE_NovLexPortal_Nour_Elislem_Haddad.pdf" },
+      report: null,
       period: "2023 – 2026",
       degree: "Diplôme National d'Ingénieur en Informatique",
       detail: "Spécialité : Génie Logiciel",
-      honors: "Mention Excellente — moyenne 17,70/20",
-      note: "PFE : 19/20 — Mention excellente.",
     },
     {
       school: "Institut Préparatoire aux Études d'Ingénieurs El Manar (IPEIEM)",
@@ -937,7 +1127,7 @@ const educationItems = {
       report: null,
       period: "2021 – 2023",
       degree: "Cycle préparatoire — Physique-Chimie",
-      detail: "Admission via le concours national tunisien d'accès aux écoles d'ingénieurs.",
+      detail: "Cursus scientifique intensif de deux ans en mathématiques, physique et raisonnement analytique. Admission via le concours national tunisien d'entrée aux écoles d'ingénieurs.",
       honors: "",
       note: "",
     },
@@ -958,14 +1148,16 @@ const educationItems = {
 const certifications = {
   en: [
     {
-      name: "NVIDIA — Deep Learning Fundamentals",
-      issuer: "NVIDIA",
+      name: "NVIDIA — Fundamentals of Deep Learning",
+      issuer: "NVIDIA Deep Learning Institute",
+      group: "ai",
       desc: "An introductory course covering the foundations of deep learning and neural networks. Topics include supervised learning, convolutional networks, data augmentation and model optimisation using NVIDIA hardware and frameworks.",
       docKeys: [{ key: "viewCert", file: "assets/images/Certificat_NVIDIA_Fundamentals_Deep_Learning_Nour_Elislem_Haddad.pdf" }],
     },
     {
       name: "AWS Academy — Cloud Foundations",
       issuer: "Amazon Web Services",
+      group: "cloud",
       desc: "A comprehensive introduction to cloud computing concepts and AWS core services. Covers infrastructure, security, pricing and the fundamentals of deploying scalable applications on the AWS platform.",
       docKeys: [
         { key: "viewBadge", file: "assets/images/AWS_Academy_Graduate___Cloud_Foundations___Training_Badge_Badge20251030-30-prj9be.pdf" },
@@ -973,34 +1165,39 @@ const certifications = {
       ],
     },
     {
-      name: "Anomaly Detection",
+      name: "NVIDIA — Applications of AI for Anomaly Detection",
       issuer: "NVIDIA Deep Learning Institute",
+      group: "ai",
       desc: "A hands-on course focused on detecting anomalies in datasets using machine learning techniques. Covers statistical methods, autoencoders and unsupervised approaches applied to real-world industrial and cybersecurity scenarios.",
       docKeys: [{ key: "viewCert", file: "assets/images/Certificat_NVIDIA_Anomaly_Detection_Nour_Elislem_Haddad.pdf" }],
     },
     {
-      name: "Transformer-Based Natural Language Processing",
+      name: "NVIDIA — Building Transformer-Based NLP Applications",
       issuer: "NVIDIA Deep Learning Institute",
+      group: "ai",
       desc: "An advanced course on Transformer architectures and their application to NLP tasks. Covers attention mechanisms, BERT-based models, fine-tuning pre-trained language models and deploying NLP pipelines at scale.",
       docKeys: [{ key: "viewCert", file: "assets/images/Certificat_NVIDIA_NLP_Transformers_Nour_Elislem_Haddad.pdf" }],
     },
     {
-      name: "Hedera",
-      issuer: "Hedera",
+      name: "Hedera — Hashgraph Developer Course",
+      issuer: "The Hashgraph Association",
+      group: "other",
       desc: "A certification covering the Hedera Hashgraph distributed ledger technology. Topics include the Hedera Consensus Service, Token Service, smart contracts and building decentralised applications on the Hedera network.",
       docKeys: [{ key: "viewCert", file: "assets/images/hedera.pdf" }],
     },
   ],
   fr: [
     {
-      name: "NVIDIA — Deep Learning Fundamentals",
-      issuer: "NVIDIA",
+      name: "NVIDIA — Fundamentals of Deep Learning",
+      issuer: "NVIDIA Deep Learning Institute",
+      group: "ai",
       desc: "Un cours d'introduction couvrant les fondamentaux du deep learning et des réseaux de neurones. Les thèmes incluent l'apprentissage supervisé, les réseaux convolutifs, l'augmentation de données et l'optimisation de modèles avec les outils NVIDIA.",
       docKeys: [{ key: "viewCert", file: "assets/images/Certificat_NVIDIA_Fundamentals_Deep_Learning_Nour_Elislem_Haddad.pdf" }],
     },
     {
       name: "AWS Academy — Cloud Foundations",
       issuer: "Amazon Web Services",
+      group: "cloud",
       desc: "Une introduction complète au cloud computing et aux services AWS. Couvre l'infrastructure, la sécurité, la tarification et les bases du déploiement d'applications évolutives sur la plateforme AWS.",
       docKeys: [
         { key: "viewBadge", file: "assets/images/AWS_Academy_Graduate___Cloud_Foundations___Training_Badge_Badge20251030-30-prj9be.pdf" },
@@ -1008,20 +1205,23 @@ const certifications = {
       ],
     },
     {
-      name: "Détection d'anomalies",
+      name: "NVIDIA — Applications de l'IA pour la détection d'anomalies",
       issuer: "NVIDIA Deep Learning Institute",
+      group: "ai",
       desc: "Un cours pratique sur la détection d'anomalies dans les données par apprentissage automatique. Couvre les méthodes statistiques, les autoencodeurs et les approches non supervisées appliquées à des cas industriels et de cybersécurité.",
       docKeys: [{ key: "viewCert", file: "assets/images/Certificat_NVIDIA_Anomaly_Detection_Nour_Elislem_Haddad.pdf" }],
     },
     {
-      name: "Traitement du langage naturel basé sur les Transformers",
+      name: "NVIDIA — Applications NLP basées sur les Transformers",
       issuer: "NVIDIA Deep Learning Institute",
+      group: "ai",
       desc: "Un cours avancé sur les architectures Transformer et leur application au NLP. Couvre les mécanismes d'attention, les modèles BERT, le fine-tuning de modèles pré-entraînés et le déploiement de pipelines NLP à grande échelle.",
       docKeys: [{ key: "viewCert", file: "assets/images/Certificat_NVIDIA_NLP_Transformers_Nour_Elislem_Haddad.pdf" }],
     },
     {
-      name: "Hedera",
-      issuer: "Hedera",
+      name: "Hedera — Hashgraph Developer Course",
+      issuer: "The Hashgraph Association",
+      group: "other",
       desc: "Une certification sur la technologie de registre distribué Hedera Hashgraph. Couvre le Hedera Consensus Service, le Token Service, les smart contracts et le développement d'applications décentralisées sur le réseau Hedera.",
       docKeys: [{ key: "viewCert", file: "assets/images/hedera.pdf" }],
     },
@@ -1115,6 +1315,10 @@ const projects = [
     image: "",
     github: "",
     demo: "",
+    report: {
+      en: { label: "View Internship Report", file: "assets/images/Rapport_de_Stage_4eme_Annee_Nour_Elislem_Haddad.pdf" },
+      fr: { label: "Voir le rapport de stage", file: "assets/images/Rapport_de_Stage_4eme_Annee_Nour_Elislem_Haddad.pdf" },
+    },
     methodology: { en: "Agile Scrum", fr: "Agile Scrum" },
     projectType: { en: "Individual Internship Project — INSOMEA Computer Solutions (Microsoft Partner)", fr: "Projet de stage individuel — INSOMEA Computer Solutions (Microsoft Partner)" },
     en: {
@@ -1167,7 +1371,7 @@ const projects = [
   {
     id: "charity",
     page: "solidarity-refugee",
-    year: "2025",
+    year: "2024",
     muted: true,
     video: "assets/videos/Copie de Orange White Modern Pitch Deck Presentation.mp4",
     image: "",
@@ -1228,7 +1432,7 @@ const projects = [
   },
   {
     id: "speedygo",
-    year: "2025",
+    year: "2024",
     muted: true,
     video: "assets/videos/Copie de Orange and Yellow Modern Delivery Express Presentation.mp4",
     image: "",
@@ -1240,7 +1444,7 @@ const projects = [
       name: "SpeedyGo",
       subtitle: "Smart Delivery and Transportation Platform",
       category: "Academic Integration Project — ESPRIT Team Project",
-      description: "SpeedyGo is a Full-Stack delivery and transportation platform combining parcel management, carpooling, trip planning, driver management, tracking and payment-related workflows. Built collaboratively as an academic integration project.",
+      description: "SpeedyGo — Team-developed mobility and logistics platform featuring carpooling, parcel delivery, online payments and a microservices-based architecture.",
       objective: "Design a comprehensive logistics and transportation platform covering the full delivery lifecycle, from parcel registration to real-time tracking and payment.",
       features: [
         "Parcel management and tracking",
@@ -1250,21 +1454,22 @@ const projects = [
         "Payment and subscription workflows",
         "Chat and in-platform communication",
         "Complaint management",
+        "Microservices-based architecture with API Gateway",
       ],
-      stack: "Angular 19 · Spring Boot · Java · Python · Flask · MySQL · Spring Security · JWT · REST APIs · Stripe",
+      stack: "Angular 19 · Spring Boot · Java · Python · Flask · MySQL · Spring Security · JWT · REST APIs · Stripe · Microservices · API Gateway · Netflix Eureka · RabbitMQ",
       teamNote: "Academic Integration Project — ESPRIT Team Project",
-      contribution: "Collaborative team project. My personal contributions include: carpooling management module, parcel management functionality, and Stripe payment integration for parcel-related transactions.",
+      contribution: "Collaborative team project. My personal contributions include: carpooling management module, parcel management functionality, Stripe payment integration, and contribution to migrating the application toward a microservices architecture (API Gateway, Netflix Eureka, RabbitMQ).",
       modalSections: {
         problem: "Students needed to build a comprehensive multi-service logistics platform covering the full delivery lifecycle as part of their integration project.",
-        solution: "SpeedyGo unifies parcel delivery, carpooling and transportation management in one platform, with separate modules for each service communicating via REST APIs.",
-        architecture: ["Angular 19 frontend (SPA)", "Spring Boot backend (Java, REST APIs)", "Flask Python service", "MySQL database", "Spring Security + JWT", "Multi-module modular architecture"],
+        solution: "SpeedyGo unifies parcel delivery, carpooling and transportation management in one platform, with separate modules communicating via REST APIs, integrated with Stripe for payments and structured around a microservices architecture.",
+        architecture: ["Angular 19 frontend (SPA)", "Spring Boot backend (Java, REST APIs)", "Flask Python service", "MySQL database", "Spring Security + JWT", "Stripe API for payments", "API Gateway", "Netflix Eureka (service discovery)", "RabbitMQ (asynchronous messaging)"],
       },
     },
     fr: {
       name: "SpeedyGo",
       subtitle: "Plateforme intelligente de livraison et de transport",
       category: "Projet d'intégration académique — Projet en équipe ESPRIT",
-      description: "SpeedyGo est une plateforme Full-Stack de livraison et de transport regroupant la gestion des colis, du covoiturage, des trajets, des conducteurs, du suivi et des paiements. Développée en équipe dans le cadre d'un projet d'intégration académique.",
+      description: "SpeedyGo — Plateforme de mobilité et de services logistiques développée en équipe, intégrant des fonctionnalités de covoiturage, de livraison de colis, de paiement en ligne et une architecture microservices.",
       objective: "Concevoir une plateforme logistique et de transport complète couvrant l'ensemble du cycle de livraison, de l'enregistrement des colis au suivi en temps réel et au paiement.",
       features: [
         "Gestion et suivi des colis",
@@ -1274,14 +1479,15 @@ const projects = [
         "Paiement et gestion des abonnements",
         "Chat et communication interne",
         "Gestion des réclamations",
+        "Architecture microservices avec API Gateway",
       ],
-      stack: "Angular 19 · Spring Boot · Java · Python · Flask · MySQL · Spring Security · JWT · API REST · Stripe",
+      stack: "Angular 19 · Spring Boot · Java · Python · Flask · MySQL · Spring Security · JWT · API REST · Stripe · Microservices · API Gateway · Netflix Eureka · RabbitMQ",
       teamNote: "Projet d'intégration académique — Équipe ESPRIT",
-      contribution: "Projet réalisé en équipe. Mes contributions personnelles incluent : le module de gestion du covoiturage, les fonctionnalités de gestion des colis, et l'intégration de Stripe pour les paiements liés aux colis.",
+      contribution: "Projet réalisé en équipe. Mes contributions personnelles incluent : le module de gestion du covoiturage, les fonctionnalités de gestion des colis, l'intégration de Stripe, et une contribution à la migration vers une architecture microservices (API Gateway, Netflix Eureka, RabbitMQ).",
       modalSections: {
         problem: "Les étudiants devaient concevoir une plateforme logistique multi-services complète couvrant l'ensemble du cycle de livraison dans le cadre de leur projet d'intégration.",
-        solution: "SpeedyGo unifie la livraison de colis, le covoiturage et la gestion des transports dans une seule plateforme, avec des modules séparés communicant via des API REST.",
-        architecture: ["Frontend Angular 19 (SPA)", "Backend Spring Boot (Java, API REST)", "Service Python Flask", "Base de données MySQL", "Spring Security + JWT", "Architecture modulaire multi-modules"],
+        solution: "SpeedyGo unifie la livraison de colis, le covoiturage et la gestion des transports dans une seule plateforme, avec des modules séparés communicant via des API REST, intégrés à Stripe et organisés autour d'une architecture microservices.",
+        architecture: ["Frontend Angular 19 (SPA)", "Backend Spring Boot (Java, API REST)", "Service Flask Python", "Base de données MySQL", "Spring Security + JWT", "API Stripe pour les paiements", "API Gateway", "Netflix Eureka (découverte de services)", "RabbitMQ (messagerie asynchrone)"],
       },
     },
   },
@@ -1347,6 +1553,10 @@ const projects = [
     image: "",
     github: "",
     demo: "",
+    report: {
+      en: { label: "View Internship Report", file: "assets/images/Rapport_de_Stage_3eme_Annee_Nour_Elislem_Haddad.pdf" },
+      fr: { label: "Voir le rapport de stage", file: "assets/images/Rapport_de_Stage_3eme_Annee_Nour_Elislem_Haddad.pdf" },
+    },
     methodology: { en: "Agile Scrum", fr: "Agile Scrum" },
     projectType: { en: "Individual Internship Project — INSOMEA Computer Solutions", fr: "Projet de stage individuel — INSOMEA Computer Solutions" },
     en: {
@@ -1438,7 +1648,9 @@ function applyI18n(lang) {
     renderExperience(lang);
     renderProjects(lang);
     renderEducation(lang);
+    renderFoundations(lang);
     renderCertifications(lang);
+    renderAcademicInterests(lang);
     renderAwards(lang);
     const loc = document.getElementById("contact-location");
     if (loc) loc.textContent = SITE.location[lang];
@@ -1713,10 +1925,12 @@ function renderCertifications(lang) {
   const list = document.getElementById("certifications-list");
   if (!list) return;
   const tc = translations[lang].certifications;
+  const aiLabel = lang === "fr" ? "IA & Deep Learning" : "AI & Deep Learning";
   list.innerHTML = certifications[lang]
     .map(
       (cert) => `
-    <article class="cert-card">
+    <article class="cert-card${cert.group === "ai" ? " cert-card--ai" : ""}">
+      ${cert.group === "ai" ? `<span class="cert-ai-badge">${aiLabel}</span>` : ""}
       <h3>${cert.name}</h3>
       ${cert.issuer ? `<p class="cert-issuer">${cert.issuer}</p>` : ""}
       ${cert.desc ? `<p class="cert-desc">${cert.desc}</p>` : ""}
@@ -1744,6 +1958,33 @@ function renderAwards(lang) {
   if (photoEl) photoEl.setAttribute("alt", t.photoAlt);
   const certLabelEl = document.querySelector(".award-cert-label");
   if (certLabelEl) certLabelEl.textContent = t.certLabel;
+}
+
+function renderFoundations(lang) {
+  const tf = translations[lang].foundations;
+  const mathList = document.getElementById("foundations-math-list");
+  const csList = document.getElementById("foundations-cs-list");
+  const aiList = document.getElementById("foundations-ai-list");
+  if (mathList) mathList.innerHTML = tf.mathItems.map(i => `<li>${i}</li>`).join("");
+  if (csList) csList.innerHTML = tf.csItems.map(i => `<li>${i}</li>`).join("");
+  if (aiList) aiList.innerHTML = tf.aiItems.map(i => `<li>${i}</li>`).join("");
+  const mathTitle = document.getElementById("foundations-math-title");
+  const csTitle = document.getElementById("foundations-cs-title");
+  const aiTitle = document.getElementById("foundations-ai-title");
+  if (mathTitle) mathTitle.textContent = tf.mathTitle;
+  if (csTitle) csTitle.textContent = tf.csTitle;
+  if (aiTitle) aiTitle.textContent = tf.aiTitle;
+}
+
+function renderAcademicInterests(lang) {
+  const ta = translations[lang].academicInterests;
+  const grid = document.getElementById("academic-interests-grid");
+  if (!grid) return;
+  grid.innerHTML = ta.items.map(item => `
+    <article class="interest-card">
+      <h3 class="interest-card__title">${item.title}</h3>
+      <p class="interest-card__desc">${item.desc}</p>
+    </article>`).join("");
 }
 
 function updateSocialLinks() {

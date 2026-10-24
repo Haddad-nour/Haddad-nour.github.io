@@ -148,6 +148,29 @@
                             <ul data-i18n="projectPages.novlex.ai"></ul>
                         </div>
 
+                        <!-- AI METHODOLOGY & EXPERIMENTS -->
+                        <div class="project-section">
+                            <h2 data-i18n="pages.aiMethodology">AI Methodology &amp; Experiments</h2>
+                            <div class="ai-method-grid">
+                                <div class="ai-method-block">
+                                    <h3 class="ai-method-block__title" data-i18n="pages.aiProblem">Problem</h3>
+                                    <p data-i18n="projectPages.novlex.aiMethodProblem"></p>
+                                </div>
+                                <div class="ai-method-block">
+                                    <h3 class="ai-method-block__title" data-i18n="pages.aiApproaches">Approaches &amp; Models</h3>
+                                    <ul data-i18n="projectPages.novlex.aiMethodApproaches"></ul>
+                                </div>
+                                <div class="ai-method-block">
+                                    <h3 class="ai-method-block__title" data-i18n="pages.aiIntegration">Architecture Integration</h3>
+                                    <p data-i18n="projectPages.novlex.aiMethodIntegration"></p>
+                                </div>
+                                <div class="ai-method-block">
+                                    <h3 class="ai-method-block__title" data-i18n="pages.aiValidation">Validation &amp; Data</h3>
+                                    <p data-i18n="projectPages.novlex.aiMethodValidation"></p>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- SECURITY -->
                         <div class="project-section">
                             <h2 data-i18n="pages.securitySection">Security</h2>
@@ -164,6 +187,50 @@
                         <div class="project-section">
                             <h2 data-i18n="pages.architecture">Technical Architecture</h2>
                             <ul data-i18n="projectPages.novlex.architecture"></ul>
+
+                            <!-- Architecture diagram -->
+                            <div class="arch-diagram" aria-label="NovLexPortal architecture diagram" role="img">
+                                <div class="arch-layer arch-layer--frontend">
+                                    <span class="arch-layer__label">Frontend</span>
+                                    <div class="arch-layer__items">
+                                        <span class="arch-tag">Angular 20.3</span>
+                                        <span class="arch-tag arch-tag--sub">SPA · TypeScript</span>
+                                    </div>
+                                </div>
+                                <div class="arch-arrow" aria-hidden="true">↕ REST API</div>
+                                <div class="arch-layer arch-layer--backend">
+                                    <span class="arch-layer__label">Backend</span>
+                                    <div class="arch-layer__items">
+                                        <span class="arch-tag">Quarkus / Java 17</span>
+                                        <span class="arch-tag arch-tag--sub">REST APIs · PostgreSQL 16</span>
+                                    </div>
+                                </div>
+                                <div class="arch-arrow" aria-hidden="true">↕ HTTP / Internal</div>
+                                <div class="arch-cols">
+                                    <div class="arch-layer arch-layer--ai">
+                                        <span class="arch-layer__label">AI Microservice</span>
+                                        <div class="arch-layer__items">
+                                            <span class="arch-tag">FastAPI / Python</span>
+                                            <span class="arch-tag arch-tag--sub">ML · NLP · OCR</span>
+                                            <span class="arch-tag arch-tag--sub">SentenceTransformer · FAISS</span>
+                                        </div>
+                                    </div>
+                                    <div class="arch-layer arch-layer--iam">
+                                        <span class="arch-layer__label">IAM &amp; Authz</span>
+                                        <div class="arch-layer__items">
+                                            <span class="arch-tag">Keycloak</span>
+                                            <span class="arch-tag arch-tag--sub">OpenFGA (fine-grained)</span>
+                                        </div>
+                                    </div>
+                                    <div class="arch-layer arch-layer--devops">
+                                        <span class="arch-layer__label">DevOps</span>
+                                        <div class="arch-layer__items">
+                                            <span class="arch-tag">Jenkins · Docker</span>
+                                            <span class="arch-tag arch-tag--sub">SonarQube</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <!-- METHODOLOGY -->
